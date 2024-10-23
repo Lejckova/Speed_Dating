@@ -1,6 +1,6 @@
 -- drop table IF EXISTS  Participants, Feedback, Matches, Clients, Meetings;
 
--- Vytvoøení tabulek a dat
+-- VytvoÃ¸enÃ­ tabulek a dat
 
 CREATE TABLE Clients
 (
@@ -32,10 +32,10 @@ CREATE TABLE Meetings
 
 INSERT INTO Meetings (theme, date, categories)
 VALUES
-	('Téma 1', '2024-09-01', '["Category A"]'),
-	('Téma 2', '2024-09-07', '["Category B"]'),
-	('Téma 3', '2024-09-14', '["Category C"]'),
-	('Téma 4', '2024-09-21', '["Category C", "Category A"]');
+	('TÃ©ma 1', '2024-09-01', '["Category A"]'),
+	('TÃ©ma 2', '2024-09-07', '["Category B"]'),
+	('TÃ©ma 3', '2024-09-14', '["Category C"]'),
+	('TÃ©ma 4', '2024-09-21', '["Category C", "Category A"]');
 
 -- SELECT * FROM Meetings;
 
@@ -145,8 +145,8 @@ CREATE TABLE Matches
 
 -- ---------
 
--- Procedura k tvorbì reportu:
--- Pøehled pozitivních shod klientù a pøehled kontaktních informací.
+-- Procedura k tvorbÃ¬ reportu:
+-- PÃ¸ehled pozitivnÃ­ch shod klientÃ¹ a pÃ¸ehled kontaktnÃ­ch informacÃ­.
 
 IF OBJECT_ID('generate_match', 'P') IS NOT NULL
     DROP PROCEDURE generate_match;
