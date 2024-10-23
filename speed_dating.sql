@@ -111,7 +111,7 @@ JOIN (VALUES
     (18, 'positive', 'abc'),
     (19, 'negative', 'abc'),
     (20, 'positive', 'abc'),
-	(21, 'positive', 'abc'),
+    (21, 'positive', 'abc'),
     (22, 'negative', 'abc'),
     (23, 'negative', 'abc'),
     (24, 'positive', 'abc'),
